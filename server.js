@@ -18,6 +18,11 @@ server.on('connection', (socket) => {
   });
 });
 
+/**
+ *
+ *
+ * @param {*} buffer
+ */
 let dispatchEvent = (buffer) => {
   let text = buffer.toString().trim();
   let [event, payload] = text.split(/\s+(.*)/);

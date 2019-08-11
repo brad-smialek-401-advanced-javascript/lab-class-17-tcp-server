@@ -5,12 +5,16 @@
   "main": "chatroom.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "lint": "eslint **/*.js",
+    "jsdoc": "jsdoc -c ./docs/config/jsdoc.config.json"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "jest": "^24.8.0",
+    "jsdoc": "^3.6.3",
     "util": "^0.12.1",
     "uuid": "^3.2.1"
   },

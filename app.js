@@ -21,6 +21,12 @@ const saveFile = (file, buffer) => writeFile(file, buffer);
 
 const convertBuffer = buffer => Buffer.from(buffer.toString().trim().toLowerCase());
 
+/**
+ *
+ *
+ * @param {*} file
+ * @returns
+ */
 const alterFile = (file) => {
   console.log('file 27 :', file);
   return loadFile(file)
