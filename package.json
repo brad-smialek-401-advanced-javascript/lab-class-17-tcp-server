@@ -1,0 +1,26 @@
+{
+  "name": "class-06",
+  "version": "1.0.0",
+  "description": "TCP Server",
+  "main": "chatroom.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "util": "^0.12.1",
+    "uuid": "^3.2.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brad-smialek-401-advanced-javascript/lab-class-17-tcp-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/brad-smialek-401-advanced-javascript/lab-class-17-tcp-server/issues"
+  },
+  "homepage": "https://github.com/brad-smialek-401-advanced-javascript/lab-class-17-tcp-server#readme"
+}
