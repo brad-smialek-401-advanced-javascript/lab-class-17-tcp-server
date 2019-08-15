@@ -16,7 +16,7 @@ client.on('data', function(data) {
 
 client.on('save', function(data) {
   let payload = JSON.parse(data);
-  console.log(`you saved :', ${payload}`);
+  console.log(`you saved : ${payload}`);
 });
 
 client.on('error', function() {
