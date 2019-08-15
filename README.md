@@ -11,9 +11,7 @@
 
 * [travis]([![Build Status](https://www.travis-ci.com/brad-smialek-401-advanced-javascript/lab-class-17-tcp-server.svg?branch=master)](https://www.travis-ci.com/brad-smialek-401-advanced-javascript/lab-class-17-tcp-server))
 
-#### Documentation
-
-* [jsdoc](http://xyz.com) 
+ 
 
 ### Modules
 #### `app.js`
@@ -25,6 +23,14 @@
   *
 * `dispatchEvent = (buffer) =>`
   *
+
+##### Exported Values and Methods
+
+###### `foo(thing) -> string`
+Usage Notes or examples
+
+###### `bar(array) -> array`
+Usage Notes or examples
 
 
 ###  Server Setup
