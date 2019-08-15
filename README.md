@@ -53,6 +53,6 @@ Usage Notes or examples
 
 
 #### UML
-![uml](./assets/tcp.jpg)
+![uml](./assets/tc.jpg)
 
 
